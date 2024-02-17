@@ -1,15 +1,16 @@
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-12-16 02:11:39
+# UPDATED: 2024-02-17 02:10:34
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 7
 # DOMAIN-SUFFIX: 1549
 # IP-CIDR: 10
-# PROCESS-NAME: 7
-# TOTAL: 1582
+# PROCESS-NAME: 14
+# TOTAL: 1590
 DOMAIN,appldnld.apple.com.edgesuite.net
 DOMAIN,apple-events.akamaized.net
+DOMAIN,a1936.dscw11.akamai.net
 DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
 DOMAIN,beatselectronicsllc.tt.omtrdc.net
@@ -1523,7 +1524,6 @@ DOMAIN-SUFFIX,ukipad.com
 DOMAIN-SUFFIX,wwwipodlounge.com
 DOMAIN-SUFFIX,wwwmacbookair.com
 DOMAIN-SUFFIX,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appleenews.com
 DOMAIN-SUFFIX,applemusic.berlin
 DOMAIN-SUFFIX,applemusic.co
@@ -1561,11 +1561,12 @@ DOMAIN-SUFFIX,iphoto.wang
 DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,wwwapplemusic.com
 DOMAIN-SUFFIX,apple-dns.net
-DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-KEYWORD,apple-support.akadns.net
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,apple.com.edgekey.net
@@ -1584,9 +1585,16 @@ IP-CIDR,205.180.175.0/24,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
 PROCESS-NAME,/System/Library/PrivateFrameworks/Lookup.framework/Versions/A/XPCServices/LookupViewService.xpc/Contents/MacOS/LookupViewService
-PROCESS-NAME,storedownloadd
+PROCESS-NAME,CoreLocationAgent
+PROCESS-NAME,WeatherWidget
+PROCESS-NAME,apsd
+PROCESS-NAME,com.apple.Maps
+PROCESS-NAME,findmydevice-user-agent
+PROCESS-NAME,fmfd
+PROCESS-NAME,mapspushd
+PROCESS-NAME,netbiosd
+PROCESS-NAME,trustd
 PROCESS-NAME,com.apple.geod
 PROCESS-NAME,Music
-PROCESS-NAME,News
 PROCESS-NAME,LookupViewService
 PROCESS-NAME,TV
