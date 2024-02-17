@@ -7,10 +7,9 @@
 # DOMAIN-SUFFIX: 1549
 # IP-CIDR: 10
 # PROCESS-NAME: 14
-# TOTAL: 1590
+# TOTAL: 1589
 DOMAIN,appldnld.apple.com.edgesuite.net
 DOMAIN,apple-events.akamaized.net
-DOMAIN,a1936.dscw11.akamai.net
 DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
 DOMAIN,beatselectronicsllc.tt.omtrdc.net
